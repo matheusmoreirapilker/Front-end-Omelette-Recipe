@@ -16,7 +16,7 @@ body{
   align-items: center;
 
   min-height: 100vh;
-  padding: 20px;
+  padding: 1.25em;
 }
 
 p,li{
@@ -33,7 +33,7 @@ main{
   width: 100%;
   max-width: 720px;
 
-  border-radius: 20px;
+  border-radius: 1.25em;
   padding: 24px;
 }
 
@@ -47,7 +47,7 @@ main{
 
 .omelette-initial{
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 1.25em;
     font-size: 1.2rem;
 }
 
@@ -56,7 +56,7 @@ main{
 }
 
 .omelette-initial p {
-    padding: 20px 0px;
+    padding:  1.25em 0em;
     color: hsla(14, 45%, 36%, 0.856);
     font-weight: 500;
 }
@@ -68,9 +68,9 @@ main{
 
 .preparation-time{
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 1.25em;
     background-color: hsla(332, 51%, 32%, 0.192);
-    border-radius: 20px;
+    border-radius: 1.25em;
 
 }
 
@@ -85,12 +85,12 @@ main{
 .list-time{
     padding-top: 10px;
     padding-bottom: 15px;
-    padding-left: 20px;
+    padding-left: 1.25em;
 }
 
 .list-time li{
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 1.25em;
 }
 
 .list_mark{
@@ -106,12 +106,12 @@ main{
 .ingredients{
     padding-top: 10px;
     padding-left: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
 }
 
 .ingredients li {
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 1.25em;
     font-weight: 500;
     color: hsla(14, 45%, 36%, 0.856);
 }
@@ -142,7 +142,7 @@ main{
     position: relative;
     z-index: 3;
     text-align: center; 
-    padding-top: 20px;
+    padding-top: 1.25em;
     font-size: 1.3rem;
     
 }
@@ -153,7 +153,7 @@ main{
 }
 
 .instructions .list li {
-    margin-left: 20px;
+    margin-left: 1.25em;
     padding-bottom: 10px;
     
 }
