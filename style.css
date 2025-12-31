@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=League+Spartan:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(24, 5%, 18%)
+}
+
+body{
+  background-color: #F3E5D8;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1,h2,h3,h4{
+    font-family: "Roboto" sans-serif;
+}
+
+p,li{
+    font-family: "Montserrat", sans-serif;
+}
+
+main{
+    margin: auto;
+    text-align: center;
+  background-color: aliceblue;
+  text-align: justify;
+  box-shadow: 0px 0px 10px black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;
+
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.omelette-img img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  display: block;
+}
+
+
+.omelette-initial{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+.omelette-initial h1 {
+    padding-bottom: 10px;
+}
+
+.omelette-initial p {
+    padding: 20px 0px;
+    color: hsla(14, 45%, 36%, 0.856);
+    font-weight: 500;
+}
+.preparation-time h2 {
+    font-size: 1.7rem;
+    color: hsl(14, 45%, 36%);
+}
+
+
+.preparation-time{
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: hsla(332, 51%, 32%, 0.192);
+    border-radius: 20px;
+
+}
+
+.preparation-time li{
+    padding: 5px 0px;
+    color: hsla(14, 45%, 36%, 0.856);
+    font-weight: 500;
+}
+
+
+
+.list-time{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.list-time li{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.list_mark{
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 1.7rem;
+}
+
+.ingredients{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.ingredients li {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: 500;
+    color: hsla(14, 45%, 36%, 0.856);
+}
+
+.instructions h2{
+    padding: 15px 0px;
+    font-size: 1.7rem;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li::marker{
+    font-weight: bolder;
+    color: hsl(14, 45%, 36%);
+}
+
+.mark{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.instructions ol li{
+    color: hsla(14, 45%, 36%, 0.856);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.attribution{
+    position: relative;
+    z-index: 3;
+    font-size: 11px; text-align: center; 
+    padding-top: 20px;
+    font-size: 1.3rem;
+    
+}
+
+
+.instructions{
+    padding-left: 10px;
+}
+
+.instructions li {
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.nutrition h2{
+    color: hsl(14, 45%, 36%);
+    padding: 10px 0;
+    font-size: 1.7rem;
+}
+
+.nutrition p {
+    color: hsla(14, 45%, 36%, 0.856);
+    font-weight: 500;
+}
+
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition th, .nutrition td{
+    padding: 12px 20px;
+    text-align: left;
+}
+
+.nutrition th{
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition td{
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+
+.attribution a { color: hsl(228, 45%, 44%);}
