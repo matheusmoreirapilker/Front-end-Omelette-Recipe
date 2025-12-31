@@ -141,7 +141,6 @@ main{
 .attribution{
     position: relative;
     z-index: 3;
-    font-size: 1em; 
     text-align: center; 
     padding-top: 20px;
     font-size: 1.3rem;
